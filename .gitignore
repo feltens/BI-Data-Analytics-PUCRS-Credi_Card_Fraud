@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+venv/
+.venv/
+.env
+
+# Large Datasets
+data/raw/*.csv
+data/gold/*.csv
+*.csv
+
+# ML Models (if needed to ignore, though currently small, standard practice to ignore large artifacts)
+# *.pkl
